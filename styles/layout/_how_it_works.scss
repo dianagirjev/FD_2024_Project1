@@ -1,0 +1,57 @@
+@import "../base/vars";
+
+.how_it_works_section {
+    background-image: url("../assets/img/how_it_works_bckg_img.jpg");
+    box-sizing: border-box;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 25px;
+    position: relative;
+
+    .how_it_works_list {
+        position: absolute;
+        top: 17%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1000px;
+
+        .how_it_works_list_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .how_it_works_list_item_icon_bckg {
+                height: 99px;
+                width: 99px;
+                position: relative;
+                border-radius: 50%;
+                background-color: #333333;
+                margin-bottom: 17px;
+
+                .how_it_works_list_item_icon {
+                    position: absolute;
+                    width: 60px;
+                    height: 60px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .how_it_works_list_item_text {
+                font-family: "Aleo", Arial, Helvetica, sans-serif;
+                font-size: 36px;
+                line-height: 0.7;
+                color: #E8E8E8;
+            }
+
+        }
+
+
+    }
+}

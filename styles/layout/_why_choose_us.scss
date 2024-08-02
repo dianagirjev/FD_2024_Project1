@@ -1,0 +1,58 @@
+@import "../base/vars";
+
+.why_choose_us_section {
+    background-image: url("../assets/img/why_choose_us_bckg_img.jpg");
+    min-height: 685px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    .why_choose_us_text {
+        position: absolute;
+        top: 31%;
+        left: 18%;
+        width: 32%;
+        max-width: 560px;
+
+        .why_choose_us_heading {
+            font-family: "Aleo", Arial, Helvetica, sans-serif;
+            font-size: 36px;
+            line-height: 0.7;
+            margin-bottom: 50px;
+        }
+
+        .why_choose_us_paragraph {
+            font-size: 16px;
+            line-height: 1.6;
+            letter-spacing: 1.6px;
+            color: #E8E8E8;
+            margin-bottom: 45px;
+            opacity: 0.6;
+        }
+
+        .why_choose_us_button {
+            background: linear-gradient(48deg, #496BFE 38%, #5474FD 38%);
+            padding: 21px 40px;
+            color: white;
+            font-family: "Aleo", Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+        }
+    }
+
+    .why_choose_us_img1 {
+        position: absolute;
+        top: 17%;
+        right: 24%;
+    }
+
+    .why_choose_us_img2 {
+        position: absolute;
+        top: 51%;
+        right: 18.5%;
+    }
+
+}
